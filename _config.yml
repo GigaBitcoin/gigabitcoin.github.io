@@ -3,7 +3,7 @@ markdown:         redcarpet
 pygments:         true
 
 # Permalinks
-permalink:        none
+permalink:        pretty
 
 
 # Setup
@@ -15,6 +15,7 @@ author:
   url: twitter.com/gigabitcoin
 
 paginate:         1
+baseurl:          gigabitcoin.co/
 
 # Custom vars
 version:          1.0.0
