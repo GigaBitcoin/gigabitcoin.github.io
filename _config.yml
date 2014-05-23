@@ -10,13 +10,12 @@ permalink:        pretty
 title:            GIGABITCOIN
 tagline:          Big On Bitcoin
 url:              http://gigabitcoin.co
-shorturl:         gigabitcoin.co
 
 author:
    url:           twitter.com/gigabitcoin
 
 paginate:         1
-baseurl:          gigabitcoin.co/
+baseurl:          gigabitcoin.co
 
 # Custom vars
 version:          1.0.0
