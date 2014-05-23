@@ -9,13 +9,13 @@ permalink:        none
 # Setup
 title:            GIGABITCOIN
 tagline:          Big On Bitcoin
-url:              "http://gigabitcoin.co"
+url:              http://gigabitcoin.co
 
 author:
   url:            twitter.com/gigabitcoin
 
 paginate:         1
-baseurl:          gigabitcoin.co/
+baseurl:          /
 
 # Custom vars
 version:          1.0.0
