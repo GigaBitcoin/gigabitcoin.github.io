@@ -15,12 +15,12 @@ author:
   url: twitter.com/gigabitcoin
 
 paginate:         1
-baseurl:          gigabitcoin.co/
+baseurl:          gigabitcoin.co
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           github.com/gigabitcoin/gigabitcoin.githubpages.io
+  repo:           github.com/gigabitcoin/gigabitcoin.github.io
 
 # This is the list of pages to include in the header of the website.
 pages_list:
