@@ -15,7 +15,7 @@ author:
   url: twitter.com/gigabitcoin
 
 paginate:         1
-baseurl:          /
+baseurl:          gigabitcoin.co/
 
 # Custom vars
 version:          1.0.0
