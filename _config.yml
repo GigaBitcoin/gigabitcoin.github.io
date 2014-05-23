@@ -1,30 +1,29 @@
 # Dependencies
-markdown:         redcarpet
-pygments:         true
+markdown:      redcarpet
+pygments:      true
 
 # Permalinks
-permalink:        none
-
+permalink:     none
 
 # Setup
-title:            GIGABITCOIN
-tagline:          Big On Bitcoin
-url:              http://gigabitcoin.co
+shorturl:      http://gigabitcoin.co
+ baseurl:      gigabitcoin.co
+ tagline:      Big On Bitcoin
+   title:      GIGABITCOIN
 
 author:
-   url:           twitter.com/gigabitcoin
+   url:        twitter.com/gigabitcoin
 
-paginate:         1
-baseurl:          gigabitcoin.co
+paginate:      1
 
 # Custom vars
-version:          1.0.0
+version:       1.0.0
 
 github:
-  repo:           github.com/gigabitcoin/gigabitcoin.github.io
+  repo:        github.com/gigabitcoin/gigabitcoin.github.io
 
 # This is the list of pages to include in the header of the website.
 pages_list:
-     About:      '/about/'
-   Archive:      '/archive/'
-      Feed:      '/atom.xml'
+     About:    '/about/'
+   Archive:    '/archive/'
+      Feed:    '/atom.xml'
