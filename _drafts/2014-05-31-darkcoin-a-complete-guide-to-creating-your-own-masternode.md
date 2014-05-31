@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to setup a Darkcoin Masternode
+title: Darkcoin: A Complete Guide to Creating Your Own Masternode
 ---
 
 [Darkcoin guides](https://darkcointalk.org/forums/guides.32/)
