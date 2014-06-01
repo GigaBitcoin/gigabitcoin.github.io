@@ -60,7 +60,7 @@ Followed by:
 clip < ~/.ssh/id_rsa.pub
 ```
 
-Goto your Digital Ocean dashboard, click the link in the side bar that says `SSH Keys`
+Goto your Digital Ocean dashboard, click the side bar link that says `SSH Keys`
 
 ![SSH Keys](/_assets/sshKeys000.png)
 
