@@ -68,6 +68,9 @@ Click `Add SSH Key`, enter a name for the key, paste the key from your clipboard
 
 ![SSH Keys](/_assets/sshKeys001.png)
 
+Now click green `CREATE` button from the side bar. Enter a `HOSTNAME`, defaults for `Select Size` and `Select Region`, Ubuntu 14.04 x32 for `Select Image`, select your SSH key(s) for `Add optional SSH Keys`, and defaults for `Settings`.
+
+![Create Droplet](/_assets/createDroplet000.png)
 
 [Recommended Guide](https://darkcointalk.org/threads/how-to-set-up-ec2-t1-micro-ubuntu-for-masternode-part-1-3.240/)
 
