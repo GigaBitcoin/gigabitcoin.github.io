@@ -68,9 +68,101 @@ Click `Add SSH Key`, enter a name for the key, paste the key from your clipboard
 
 ![SSH Keys](/_assets/sshKeys001.png)
 
-Now click green `CREATE` button from the side bar. Enter a `HOSTNAME`, defaults for `Select Size` and `Select Region`, Ubuntu 14.04 x32 for `Select Image`, select your SSH key(s) for `Add optional SSH Keys`, and defaults for `Settings`.
+Now click green `CREATE` button from the side bar. Enter a `HOSTNAME`, defaults for `Select Size` and `Select Region`, Ubuntu 14.04 x32 for `Select Image`, select your SSH key(s) for `Add optional SSH Keys`, defaults for `Settings`, and click `Create Droplet`.
 
 ![Create Droplet](/_assets/createDroplet000.png)
+
+Now that your server has been created, copy the server IP address from the `Droplets` side bar and SSH viw:
+
+``` bash
+ssh root@YOUR.SERVER.IP.ADDRESS
+```
+
+Update/upgrade the software first.
+
+``` bash
+apt-get update
+apt-get upgrade
+```
+
+Install [Fail2ban](http://www.fail2ban.org/wiki/index.php/Main_Page) which is a daemon that monitors login attempts to a server and blocks suspicious activity as it occurs.
+
+``` bash
+apt-get install fail2ban
+```
+
+Configure SSH to prevent password logins with:
+
+``` bash
+vim /etc/ssh/sshd_config
+```
+
+Scroll down and look for the line:
+
+``` bash
+# Change to no to disable tunnelled clear text passwords
+# PasswordAuthentication yes
+```
+
+Change it to look like:
+
+``` bash
+# Change to no to disable tunnelled clear text passwords
+PasswordAuthentication no
+```
+
+Now hit `ESCAPE` and type `:wq` the press `ENTER`.
+
+No secure server is complete without a firewall. Ubuntu provides ufw, which makes firewall management easy. Run:
+
+``` bash
+# Configures the server firewall to accept traffic over port 22 for SSH and port 9999 for Darkcoind
+ufw allow 22
+ufw allow 9999
+ufw enable
+```
+
+Enable automatic security updates which scare me a bit, but not as badly as unpatched security holes.
+
+``` bash
+apt-get install unattended-upgrades
+
+vim /etc/apt/apt.conf.d/10periodic
+```
+
+Update the file to look like this:
+
+``` bash
+APT::Periodic::Update-Package-Lists "1";
+APT::Periodic::Download-Upgradeable-Packages "1";
+APT::Periodic::AutocleanInterval "7";
+APT::Periodic::Unattended-Upgrade "1";
+```
+
+Then hit `ESCAPE` and type `:wq` the press `ENTER` to save. Next config file to edit:
+
+``` bash
+vim /etc/apt/apt.conf.d/50unattended-upgrades
+```
+
+Update the file to look like below. You should probably keep updates disabled and stick with security updates only:
+
+``` bash
+Unattended-Upgrade::Allowed-Origins {
+        "Ubuntu lucid-security";
+//      "Ubuntu lucid-updates";
+};
+```
+
+Now shutdown the server and create an image for easy restoration or creating more Masternodes in the future.
+
+``` bash
+sudo poweroff
+```
+
+Goto the Digital Ocean dashboard and click `Droplets` from the side bar and select your Masternode droplet. Then select `Snapshots`, enter a snapshot name, and click `Take Snapshot`.
+
+![Security Snapshot](/_assets/securitySnapshot000.png)
 
 [Recommended Guide](https://darkcointalk.org/threads/how-to-set-up-ec2-t1-micro-ubuntu-for-masternode-part-1-3.240/)
 
