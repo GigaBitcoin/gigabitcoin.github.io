@@ -22,7 +22,7 @@ via [wiki.darkcoin.eu](http://wiki.darkcoin.eu/wiki/FAQ#What_are_Master_Nodes.3F
 Initial Setup
 =============
 
-To start off, you need to buy a server to host your Masternode on (if you don’t own one already). This guide will be for Linux based servers (I’m running Ubuntu x32). I shamelessly recommend [Digital Ocean](https://www.digitalocean.com/?refcode=a4ad65c140a2). I'm using the single CPU with 512MB of RAM, a 20GB SSD, and one TB of transfer for $5/month!!! /salespitch
+To start off, you need to buy a server to host your Masternode on (if you don’t own one already). This guide will be for Linux based servers (I’m running Ubuntu x32). I shamelessly recommend [Digital Ocean](https://www.digitalocean.com/?refcode=a4ad65c140a2). I'm using the single CPU with 512MB of RAM, a 20GB SSD, and one TB of transfer for $5/month!!! Send me a DM on twitter and I'll send you a $10 promo code. /salespitch
 
 Configure Your Server’s Security
 ================================
@@ -46,7 +46,7 @@ If the file `id_rsa.pub` does not exist, you'll need to generate a new key pair 
 ssh-keygen -t rsa -C "your_email@email.com"
 ```
 
-You're asked to enter a file for saving the key to. Simply press enter because defaults are preferred. Next, you'll be asked to enter a passphrase. Use a strong, unique password generated from __[KeePass](http://keepass.info/)__ or __[1Password](https://agilebits.com/onepassword)__ and store it for safe keeping. After your identification has been saved to `id_rsa.pub`, type:
+You're asked to enter a file for saving the key to. Simply press enter because defaults are preferred. Next, you'll be asked to enter a passphrase. Use a strong, unique password generated from __[KeePass](http://keepass.info/)__ or __[1Password](https://agilebits.com/onepassword)__ and store it and the generated key pair for safe keeping. After your identification has been saved to `id_rsa.pub`, type:
 
 ``` bash
 # Add your new key to the ssh-agent
@@ -72,7 +72,7 @@ Now click green `CREATE` button from the side bar. Enter a `HOSTNAME`, defaults 
 
 ![Create Droplet](/_assets/createDroplet000.png)
 
-Now that your server has been created, copy the server IP address from the `Droplets` side bar and SSH viw:
+Now that your server has been created, copy the server IP address from the `Droplets` side bar and SSH with terminal via:
 
 ``` bash
 ssh root@YOUR.SERVER.IP.ADDRESS
@@ -149,12 +149,14 @@ Update the file to look like below. You should probably keep updates disabled an
 
 ``` bash
 Unattended-Upgrade::Allowed-Origins {
-        "Ubuntu lucid-security";
-//      "Ubuntu lucid-updates";
+        "${distro_id}:${distro_codename}-security";
+//      "${distro_id}:${distro_codename}-updates";
+//      "${distro_id}:${distro_codename}-proposed";
+//      "${distro_id}:${distro_codename}-backports";
 };
 ```
 
-Now shutdown the server and create an image for easy restoration or creating more Masternodes in the future.
+Again hit `ESCAPE` and type `:wq` the press `ENTER` to save. Now shutdown your server and create an image for easy restoration or creating more Masternodes in the future.
 
 ``` bash
 sudo poweroff
