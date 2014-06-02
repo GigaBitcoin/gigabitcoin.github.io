@@ -37,9 +37,7 @@ cd ~/.ssh
 ls -al
 ```
 
-Check the directory listing to see if you have a file named `id_rsa.pub`.
-
-If the file `id_rsa.pub` does not exist, you'll need to generate a new key pair by inputting:
+Check the directory listing to see if you have a file named `id_rsa.pub`. If the file `id_rsa.pub` does not exist, you'll need to generate a new key pair by inputting:
 
 ``` bash
 # Creates a new ssh key, using the provided email as a label
@@ -150,7 +148,7 @@ And change them to:
 # %sudo   ALL=(ALL:ALL) ALL
 ```
 
-Press `Control + X`, type `Y`, and hit `Enter`. Now you'll Configure SSH to prevent password logins with:
+Press `Control + X`, type `Y`, and hit `Enter`. Now you'll Configure SSH to prevent password logins and disable `root` with:
 
 ``` bash
 vim /etc/ssh/sshd_config
@@ -182,9 +180,7 @@ And change it to:
 PermitRootLogin no
 ```
 
-Now hit `ESCAPE`, type `:wq`, and then press `ENTER`. After a server restart, `root` will be disabled and you'll need to SSH with `yourLoginUser`.
-
-No secure server is complete without a firewall. Ubuntu provides ufw, which makes firewall management easy. Run:
+Now hit `ESCAPE`, type `:wq`, and then press `ENTER`. After a server restart, `root` will be disabled and you'll need to SSH with `yourLoginUser`. No secure server is complete without a firewall. Ubuntu provides ufw, which makes firewall management easy. Run:
 
 ``` bash
 # Configures the server firewall to accept traffic over port 22 for SSH and port 9999 for Darkcoind
