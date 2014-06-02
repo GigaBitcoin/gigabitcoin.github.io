@@ -104,7 +104,14 @@ Setup SSH for your login user:
 vim /home/yourLoginUser/.ssh/authorized_keys
 ```
 
-Paste the contents of the `id_rsa.pub`. Press `ESCAPE`, type `:wq`, and then press `ENTER`. Next, you'll set a sudo password for your login user.
+Add the contents of the `id_rsa.pub` and any other public keys that you want to have access to this server to this file. Press `ESCAPE`, type `:wq`, and then press `ENTER`. Now finish the SSH authorization with:
+
+``` bash
+chmod 400 /home/yourLoginUser/.ssh/authorized_keys
+chown yourLoginUser:yourLoginUser /home/yourLoginUser -R
+```
+
+Next, you'll set a sudo password for your login user.
 
 ``` bash
 passwd yourLoginUser
