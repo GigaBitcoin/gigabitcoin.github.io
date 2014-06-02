@@ -91,7 +91,66 @@ Install [Fail2ban](http://www.fail2ban.org/wiki/index.php/Main_Page) which is a 
 apt-get install fail2ban
 ```
 
-Configure SSH to prevent password logins with:
+Now, let’s set up your login user:
+
+``` bash
+useradd yourLoginUser
+mkdir /home/yourLoginUser
+mkdir /home/yourLoginUser/.ssh
+chmod 700 /home/yourLoginUser/.ssh
+```
+
+Setup SSH for your login user:
+
+``` bash
+vim /home/yourLoginUser/.ssh/authorized_keys
+```
+
+Paste the contents of the `id_rsa.pub`. Press `ESCAPE`, type `:wq`, and then press `ENTER`. Next, you'll set a sudo password for your login user.
+
+``` bash
+passwd yourLoginUser
+```
+
+Store this password for late use. Now you'll configure the sudo file:
+
+``` bash
+visudo
+```
+
+Find the line:
+
+``` bash
+root    ALL=(ALL:ALL) ALL
+```
+
+Add the line:
+
+``` bash
+yourLoginUser    ALL=(ALL:ALL) ALL
+```
+
+Find the following lines:
+
+``` bash
+# Members of the admin group may gain root privileges
+%admin ALL=(ALL) ALL
+
+# Allow members of group sudo to execute any command
+%sudo   ALL=(ALL:ALL) ALL
+```
+
+And change them to:
+
+``` bash
+# Members of the admin group may gain root privileges
+# %admin ALL=(ALL) ALL
+
+# Allow members of group sudo to execute any command
+# %sudo   ALL=(ALL:ALL) ALL
+```
+
+Press `Control + X`, type `Y`, and hit `Enter`. Now you'll Configure SSH to prevent password logins with:
 
 ``` bash
 vim /etc/ssh/sshd_config
@@ -111,7 +170,19 @@ Change it to look like:
 PasswordAuthentication no
 ```
 
-Now hit `ESCAPE` and type `:wq` the press `ENTER`.
+Next find the line:
+
+``` bash
+PermitRootLogin yes
+```
+
+And change it to:
+
+``` bash
+PermitRootLogin no
+```
+
+Now hit `ESCAPE`, type `:wq`, and then press `ENTER`. After a server restart, `root` will be disabled and you'll need to SSH with `yourLoginUser`.
 
 No secure server is complete without a firewall. Ubuntu provides ufw, which makes firewall management easy. Run:
 
@@ -139,7 +210,7 @@ APT::Periodic::AutocleanInterval "7";
 APT::Periodic::Unattended-Upgrade "1";
 ```
 
-Then hit `ESCAPE` and type `:wq` the press `ENTER` to save. Next config file to edit:
+Then hit `ESCAPE`, type `:wq`, and then press `ENTER` to save. Next config file to edit:
 
 ``` bash
 vim /etc/apt/apt.conf.d/50unattended-upgrades
@@ -156,7 +227,7 @@ Unattended-Upgrade::Allowed-Origins {
 };
 ```
 
-Again hit `ESCAPE` and type `:wq` the press `ENTER` to save. Now shutdown your server and create an image for easy restoration or creating more Masternodes in the future.
+Again, hit `ESCAPE`, type `:wq`, and then press `ENTER` to save. Now shutdown your server and create an image for easy restoration or creating more Masternodes in the future.
 
 ``` bash
 sudo poweroff
