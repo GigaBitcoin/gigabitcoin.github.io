@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>wallet</string>
+			<string>bitcoin</string>
+		</array>
+		<key>name</key>
+		<string>Bread Wallet</string>
+		<key>id</key>
+		<string>885251393</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>wallet</string>
+			<string>bitcoin</string>
+		</array>
+		<key>name</key>
+		<string>BitStore</string>
+		<key>id</key>
+		<string>890668158</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>wallet</string>
+			<string>bitcoin</string>
+		</array>
+		<key>name</key>
+		<string>Coin Pocket</string>
+		<key>id</key>
+		<string>885640234</string>
+	</dict>
+</array>
+</plist>
