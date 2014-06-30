@@ -5,6 +5,154 @@
 	<dict>
 		<key>tags</key>
 		<array>
+			<string>litecoin</string>
+			<string>mining</string>
+		</array>
+		<key>name</key>
+		<string>LTCRabbit</string>
+		<key>id</key>
+		<string>837876587</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>litecoin</string>
+			<string>alerts</string>
+			<string>mining</string>
+		</array>
+		<key>name</key>
+		<string>LTC Depot</string>
+		<key>id</key>
+		<string>787302625</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>litecoin</string>
+			<string>ticker</string>
+			<string>alerts</string>
+			<string>mining</string>
+			<string>news</string>
+		</array>
+		<key>name</key>
+		<string>Miner Stats</string>
+		<key>id</key>
+		<string>782593885</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>litecoin</string>
+			<string>ticker</string>
+		</array>
+		<key>name</key>
+		<string>LTC Price</string>
+		<key>id</key>
+		<string>757638901</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
+			<string>litecoin</string>
+			<string>ticker</string>
+		</array>
+		<key>name</key>
+		<string>Coined</string>
+		<key>id</key>
+		<string>750432002</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
+			<string>alerts</string>
+			<string>ticker</string>
+		</array>
+		<key>name</key>
+		<string>BTC Charts</string>
+		<key>id</key>
+		<string>627347328</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
+			<string>alerts</string>
+		</array>
+		<key>name</key>
+		<string>Bitcoin Alert</string>
+		<key>id</key>
+		<string>699408229</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
+			<string>charts</string>
+			<string>ticker</string>
+			<string>alerts</string>
+			<string>news</string>
+			<string>calculator</string>
+		</array>
+		<key>name</key>
+		<string>CoinDesk</string>
+		<key>id</key>
+		<string>865294356</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
+			<string>mining</string>
+		</array>
+		<key>name</key>
+		<string>BTC Miner</string>
+		<key>id</key>
+		<string>648411895</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
+			<string>videos</string>
+			<string>education</string>
+		</array>
+		<key>name</key>
+		<string>Bitcoin: Everything About Bitcoins</string>
+		<key>id</key>
+		<string>659172435</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>litecoin</string>
+			<string>bitcoin</string>
+			<string>alerts</string>
+			<string>calculator</string>
+			<string>ticker</string>
+			<string>charts</string>
+		</array>
+		<key>name</key>
+		<string>btcReport</string>
+		<key>id</key>
+		<string>440302110</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>litecoin</string>
+			<string>alerts</string>
+			<string>ticker</string>
+		</array>
+		<key>name</key>
+		<string>Litecoin Price</string>
+		<key>id</key>
+		<string>681176788?</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
 			<string>bitcoin</string>
 			<string>litecoin</string>
 			<string>ticker</string>
