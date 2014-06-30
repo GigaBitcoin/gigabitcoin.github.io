@@ -5,7 +5,30 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>Bitcoin</string>
+			<string>litecoin</string>
+			<string>bitcoin</string>
+			<string>games</string>
+		</array>
+		<key>name</key>
+		<string>Hoot Solvent</string>
+		<key>id</key>
+		<string>876824447</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>litecoin</string>
+			<string>games</string>
+		</array>
+		<key>name</key>
+		<string>Litecoin Rider</string>
+		<key>id</key>
+		<string>819765313</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
 			<string>utilities</string>
 		</array>
 		<key>name</key>
