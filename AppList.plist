@@ -20,6 +20,50 @@
 			<string>bitcoin</string>
 		</array>
 		<key>name</key>
+		<string>bitWallet</string>
+		<key>id</key>
+		<string>777634714</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>wallet</string>
+			<string>bitcoin</string>
+		</array>
+		<key>name</key>
+		<string>GreenAddress</string>
+		<key>id</key>
+		<string>889740745</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>wallet</string>
+			<string>bitcoin</string>
+		</array>
+		<key>name</key>
+		<string>Verso Wallet</string>
+		<key>id</key>
+		<string>763862407</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>wallet</string>
+			<string>bitcoin</string>
+		</array>
+		<key>name</key>
+		<string>CoinJar</string>
+		<key>id</key>
+		<string>725209873</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>wallet</string>
+			<string>bitcoin</string>
+		</array>
+		<key>name</key>
 		<string>BitStore</string>
 		<key>id</key>
 		<string>890668158</string>
