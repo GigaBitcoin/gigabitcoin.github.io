@@ -5,6 +5,173 @@
 	<dict>
 		<key>tags</key>
 		<array>
+			<string>Bitcoin</string>
+			<string>utilities</string>
+		</array>
+		<key>name</key>
+		<string>Bitview</string>
+		<key>id</key>
+		<string>837153089</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>litecoin</string>
+			<string>utilities</string>
+		</array>
+		<key>name</key>
+		<string>Litecoin Convert</string>
+		<key>id</key>
+		<string>859751028</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
+			<string>videos</string>
+		</array>
+		<key>name</key>
+		<string>Money and Tech</string>
+		<key>id</key>
+		<string>872746409</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
+			<string>merchant</string>
+		</array>
+		<key>name</key>
+		<string>BIPS POS</string>
+		<key>id</key>
+		<string>802910291</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
+			<string>events</string>
+		</array>
+		<key>name</key>
+		<string>BTC Miami</string>
+		<key>id</key>
+		<string>780733260</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
+			<string>litecoin</string>
+			<string>ticker</string>
+			<string>alerts</string>
+		</array>
+		<key>name</key>
+		<string>CoinsMan</string>
+		<key>id</key>
+		<string>772163893</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
+			<string>games</string>
+		</array>
+		<key>name</key>
+		<string>Bitcoin Clicker</string>
+		<key>id</key>
+		<string>873674306</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>dogecoin</string>
+			<string>games</string>
+		</array>
+		<key>name</key>
+		<string>Doge Clicker</string>
+		<key>id</key>
+		<string>861242220</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
+			<string>events</string>
+		</array>
+		<key>name</key>
+		<string>Bitcoin Foundation Events</string>
+		<key>id</key>
+		<string>864187945</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
+			<string>events</string>
+		</array>
+		<key>name</key>
+		<string>Bitcoin Texas Conference</string>
+		<key>id</key>
+		<string>824501382</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
+			<string>utilities</string>
+		</array>
+		<key>name</key>
+		<string>Bitcoin Wall</string>
+		<key>id</key>
+		<string>659218728</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
+			<string>games</string>
+		</array>
+		<key>name</key>
+		<string>Bitcoin Escape</string>
+		<key>id</key>
+		<string>816744644</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>dogecoin</string>
+			<string>games</string>
+		</array>
+		<key>name</key>
+		<string>Make The Money Rain</string>
+		<key>id</key>
+		<string>882584646</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>dogecoin</string>
+			<string>games</string>
+		</array>
+		<key>name</key>
+		<string>Doge Bounce</string>
+		<key>id</key>
+		<string>850547912</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>dogecoin</string>
+			<string>games</string>
+		</array>
+		<key>name</key>
+		<string>Make It Rain Doge</string>
+		<key>id</key>
+		<string>884511439</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
 			<string>bitcoin</string>
 			<string>mining</string>
 			<string>utilities</string>
