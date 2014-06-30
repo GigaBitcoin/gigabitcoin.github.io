@@ -5,6 +5,49 @@
 	<dict>
 		<key>tags</key>
 		<array>
+			<string>bitcoin</string>
+			<string>litecoin</string>
+			<string>ticker</string>
+			<string>nxt</string>
+			<string>dogecoin</string>
+			<string>peercoin</string>
+			<string>namecoin</string>
+		</array>
+		<key>name</key>
+		<string>Coin Ticker</string>
+		<key>id</key>
+		<string>636476147</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
+			<string>alerts</string>
+			<string>ticker</string>
+		</array>
+		<key>name</key>
+		<string>Bitcoin Ticker</string>
+		<key>id</key>
+		<string>440229059</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>news</string>
+			<string>charts</string>
+			<string>litecoin</string>
+			<string>bitcoin</string>
+			<string>alerts</string>
+			<string>ticker</string>
+		</array>
+		<key>name</key>
+		<string>Coinbits</string>
+		<key>id</key>
+		<string>457475022</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
 			<string>wallet</string>
 			<string>bitcoin</string>
 		</array>
@@ -12,6 +55,21 @@
 		<string>Bread Wallet</string>
 		<key>id</key>
 		<string>885251393</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>news</string>
+			<string>charts</string>
+			<string>bitcoin</string>
+			<string>alerts</string>
+			<string>calculator</string>
+			<string>ticker</string>
+		</array>
+		<key>name</key>
+		<string>ZeroBlock</string>
+		<key>id</key>
+		<string>643184018</string>
 	</dict>
 	<dict>
 		<key>tags</key>
