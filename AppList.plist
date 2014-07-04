@@ -5,6 +5,82 @@
 	<dict>
 		<key>tags</key>
 		<array>
+			<string>bitcoin</string>
+			<string>ticker</string>
+			<string>utilities</string>
+		</array>
+		<key>name</key>
+		<string>coinwatch</string>
+		<key>id</key>
+		<string>646583472</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
+			<string>community</string>
+			<string>news</string>
+			<string>merchant</string>
+		</array>
+		<key>name</key>
+		<string>Bubblecoin</string>
+		<key>id</key>
+		<string>748662002</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
+			<string>business</string>
+			<string>local</string>
+			<string>merchant</string>
+		</array>
+		<key>name</key>
+		<string>BitScan</string>
+		<key>id</key>
+		<string>734946568</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
+			<string>business</string>
+			<string>local</string>
+			<string>merchant</string>
+		</array>
+		<key>name</key>
+		<string>CoinScout</string>
+		<key>id</key>
+		<string>793484994</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
+			<string>litecoin</string>
+			<string>namecoin</string>
+			<string>peercoin</string>
+			<string>ticker</string>
+		</array>
+		<key>name</key>
+		<string>Cryptok</string>
+		<key>id</key>
+		<string>792817672</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
+			<string>bitcoin</string>
+			<string>business</string>
+		</array>
+		<key>name</key>
+		<string>Coinality</string>
+		<key>id</key>
+		<string>818571311</string>
+	</dict>
+	<dict>
+		<key>tags</key>
+		<array>
 			<string>litecoin</string>
 			<string>bitcoin</string>
 			<string>games</string>
@@ -346,17 +422,6 @@
 		<string>Doge Tracker</string>
 		<key>id</key>
 		<string>785007290</string>
-	</dict>
-	<dict>
-		<key>tags</key>
-		<array>
-			<string>dogecoin</string>
-			<string>wallet</string>
-		</array>
-		<key>name</key>
-		<string>MYDOGE</string>
-		<key>id</key>
-		<string>805178886</string>
 	</dict>
 	<dict>
 		<key>tags</key>
