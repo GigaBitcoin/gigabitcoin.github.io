@@ -5,9 +5,9 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>bitcoin</string>
-			<string>ticker</string>
-			<string>utilities</string>
+			<string>Bitcoin</string>
+			<string>Tickers</string>
+			<string>Utilities</string>
 		</array>
 		<key>name</key>
 		<string>coinwatch</string>
@@ -17,10 +17,10 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>bitcoin</string>
-			<string>community</string>
-			<string>news</string>
-			<string>merchant</string>
+			<string>Bitcoin</string>
+			<string>Community</string>
+			<string>News</string>
+			<string>Business</string>
 		</array>
 		<key>name</key>
 		<string>Bubblecoin</string>
@@ -30,10 +30,9 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>bitcoin</string>
-			<string>business</string>
-			<string>local</string>
-			<string>merchant</string>
+			<string>Bitcoin</string>
+			<string>Business</string>
+			<string>Local</string>
 		</array>
 		<key>name</key>
 		<string>BitScan</string>
@@ -43,10 +42,9 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>bitcoin</string>
-			<string>business</string>
-			<string>local</string>
-			<string>merchant</string>
+			<string>Bitcoin</string>
+			<string>Business</string>
+			<string>Local</string>
 		</array>
 		<key>name</key>
 		<string>CoinScout</string>
@@ -56,11 +54,11 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>bitcoin</string>
-			<string>litecoin</string>
-			<string>namecoin</string>
-			<string>peercoin</string>
-			<string>ticker</string>
+			<string>Bitcoin</string>
+			<string>Litecoin</string>
+			<string>Namecoin</string>
+			<string>Peercoin</string>
+			<string>Tickers</string>
 		</array>
 		<key>name</key>
 		<string>Cryptok</string>
@@ -70,8 +68,8 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>bitcoin</string>
-			<string>business</string>
+			<string>Bitcoin</string>
+			<string>Business</string>
 		</array>
 		<key>name</key>
 		<string>Coinality</string>
@@ -81,9 +79,9 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>litecoin</string>
-			<string>bitcoin</string>
-			<string>games</string>
+			<string>Litecoin</string>
+			<string>Bitcoin</string>
+			<string>Games</string>
 		</array>
 		<key>name</key>
 		<string>Hoot Solvent</string>
@@ -93,8 +91,8 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>litecoin</string>
-			<string>games</string>
+			<string>Litecoin</string>
+			<string>Games</string>
 		</array>
 		<key>name</key>
 		<string>Litecoin Rider</string>
@@ -104,8 +102,8 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>bitcoin</string>
-			<string>utilities</string>
+			<string>Bitcoin</string>
+			<string>Utilities</string>
 		</array>
 		<key>name</key>
 		<string>Bitview</string>
@@ -115,8 +113,8 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>litecoin</string>
-			<string>utilities</string>
+			<string>Litecoin</string>
+			<string>Utilities</string>
 		</array>
 		<key>name</key>
 		<string>Litecoin Convert</string>
@@ -126,8 +124,8 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>bitcoin</string>
-			<string>videos</string>
+			<string>Bitcoin</string>
+			<string>Videos</string>
 		</array>
 		<key>name</key>
 		<string>Money and Tech</string>
@@ -137,8 +135,8 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>bitcoin</string>
-			<string>merchant</string>
+			<string>Bitcoin</string>
+			<string>Business</string>
 		</array>
 		<key>name</key>
 		<string>BIPS POS</string>
@@ -148,8 +146,8 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>bitcoin</string>
-			<string>events</string>
+			<string>Bitcoin</string>
+			<string>Events</string>
 		</array>
 		<key>name</key>
 		<string>BTC Miami</string>
@@ -159,10 +157,10 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>bitcoin</string>
-			<string>litecoin</string>
-			<string>ticker</string>
-			<string>alerts</string>
+			<string>Bitcoin</string>
+			<string>Litecoin</string>
+			<string>Tickers</string>
+			<string>Alerts</string>
 		</array>
 		<key>name</key>
 		<string>CoinsMan</string>
@@ -172,8 +170,8 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>bitcoin</string>
-			<string>games</string>
+			<string>Bitcoin</string>
+			<string>Games</string>
 		</array>
 		<key>name</key>
 		<string>Bitcoin Clicker</string>
@@ -183,8 +181,8 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>dogecoin</string>
-			<string>games</string>
+			<string>Dogecoin</string>
+			<string>Games</string>
 		</array>
 		<key>name</key>
 		<string>Doge Clicker</string>
@@ -194,8 +192,8 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>bitcoin</string>
-			<string>events</string>
+			<string>Bitcoin</string>
+			<string>Events</string>
 		</array>
 		<key>name</key>
 		<string>Bitcoin Foundation Events</string>
@@ -205,8 +203,8 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>bitcoin</string>
-			<string>events</string>
+			<string>Bitcoin</string>
+			<string>Events</string>
 		</array>
 		<key>name</key>
 		<string>Bitcoin Texas Conference</string>
@@ -216,8 +214,8 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>bitcoin</string>
-			<string>utilities</string>
+			<string>Bitcoin</string>
+			<string>Utilities</string>
 		</array>
 		<key>name</key>
 		<string>Bitcoin Wall</string>
@@ -227,8 +225,8 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>bitcoin</string>
-			<string>games</string>
+			<string>Bitcoin</string>
+			<string>Games</string>
 		</array>
 		<key>name</key>
 		<string>Bitcoin Escape</string>
@@ -284,34 +282,12 @@
 		<key>tags</key>
 		<array>
 			<string>bitcoin</string>
-			<string>podcasts</string>
-		</array>
-		<key>name</key>
-		<string>Let&apos;s Talk Bitcoin</string>
-		<key>id</key>
-		<string>866630697</string>
-	</dict>
-	<dict>
-		<key>tags</key>
-		<array>
-			<string>bitcoin</string>
 			<string>ticker</string>
 		</array>
 		<key>name</key>
 		<string>BitTix</string>
 		<key>id</key>
 		<string>866654884</string>
-	</dict>
-	<dict>
-		<key>tags</key>
-		<array>
-			<string>bitcoin</string>
-			<string>mining</string>
-		</array>
-		<key>name</key>
-		<string>Coin Miner Stats</string>
-		<key>id</key>
-		<string>887183169</string>
 	</dict>
 	<dict>
 		<key>tags</key>
@@ -366,7 +342,6 @@
 		<array>
 			<string>bitcoin</string>
 			<string>utilities</string>
-			<string>network</string>
 		</array>
 		<key>name</key>
 		<string>Baseline</string>
@@ -379,7 +354,6 @@
 			<string>bitcoin</string>
 			<string>litecoin</string>
 			<string>mining</string>
-			<string>network</string>
 		</array>
 		<key>name</key>
 		<string>MobileMinerApp</string>
@@ -391,7 +365,6 @@
 		<array>
 			<string>bitcoin</string>
 			<string>mining</string>
-			<string>network</string>
 		</array>
 		<key>name</key>
 		<string>Bitcoin Miner Stats</string>
@@ -437,8 +410,8 @@
 	<dict>
 		<key>tags</key>
 		<array>
-			<string>merchant</string>
-			<string>bitcoin</string>
+			<string>Business</string>
+			<string>Bitcoin</string>
 		</array>
 		<key>name</key>
 		<string>BitCharge</string>
