@@ -245,3 +245,5 @@ Goto the Digital Ocean dashboard and click `Droplets` from the side bar and sele
 [Darkcoin guides](https://darkcointalk.org/forums/guides.32/)
 
 [Darkcoins on local machine](https://bitcointalk.org/index.php?topic=421615.msg6427569#msg6427569)
+
+[LogWatch](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-logwatch-log-analyzer-and-reporter-on-a-vps)
